@@ -1,6 +1,6 @@
-# ctfpeek
+# ctfyoink
 
-**ctfpeek** is a lightweight Bash script for rapid triage of files in Capture The Flag (CTF) competitions. It automates the initial analysis process by scanning files with a suite of common forensic, steganographic, and reverse engineering tools.
+**ctfyoink** is a lightweight Bash script for rapid triage of files in Capture The Flag (CTF) competitions. It automates the initial analysis process by scanning files with a suite of common forensic, steganographic, and reverse engineering tools.
 
 ---
 
@@ -20,7 +20,7 @@
 ## Example Usage
 
 ```bash
-ctfpeek challenge_file.jpg
+ctfyoink challenge_file.jpg
 ```
 
 You’ll see output like:
@@ -37,7 +37,7 @@ You’ll see output like:
 And a log file like:
 
 ```
-ctfpeek-challenge_file.jpg.log
+ctfyoink-challenge_file.jpg.log
 ```
 
 ---
@@ -47,29 +47,29 @@ ctfpeek-challenge_file.jpg.log
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/yourusername/ctfpeek.git
-cd ctfpeek
+git clone https://github.com/yourusername/ctfyoink.git
+cd ctfyoink
 ```
 
 2. Make the script executable:
 
 ```bash
-chmod +x ctfpeek
+chmod +x ctfyoink
 ```
 
 3. (Optional) Move it to your system path:
 
 ```bash
-sudo mv ctfpeek /usr/local/bin/
+sudo mv ctfyoink /usr/local/bin/
 ```
 
-Now you can run `ctfpeek` from anywhere.
+Now you can run `ctfyoink` from anywhere.
 
 ---
 
 ## Dependencies
 
-`ctfpeek` uses the following tools if available:
+`ctfyoink` uses the following tools if available:
 
 - `file`
 - `strings`
@@ -96,7 +96,7 @@ sudo apt update && sudo apt install -y \
 
 ---
 
-## Why Use ctfpeek?
+## Why Use ctfyoink?
 
 - Saves time on repetitive file inspection tasks
 - Quickly surfaces useful leads
@@ -119,4 +119,4 @@ Pull requests and suggestions are welcome! If you have tool ideas, edge cases, o
 
 ## Author
 
-Created by [Your Name or Handle]
+Created by Matthew Burns
